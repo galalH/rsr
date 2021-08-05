@@ -1,0 +1,31 @@
+Package: rsr
+Title: Tidy wrapper for the UNHCR Resettlement Statistics Report application
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Hisham",
+           family = "Galal",
+           role = c("aut", "cre"),
+           email = "galal@unhcr.org")
+Description: Retrieve & tidy data from the UNHCR Resettlement Statistics Report application https://rsr.unhcr.org/.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: R (>= 4.1.0)
+Imports: 
+    cachem,
+    chromote,
+    dplyr,
+    fs,
+    httr,
+    lubridate,
+    memoise,
+    purrr,
+    rappdirs,
+    readr,
+    readxl,
+    rvest,
+    stringr,
+    tidyr,
+    tidyselect
